@@ -152,14 +152,27 @@ If CLAUDE.md, SESSION_SUMMARY.md, or other context files already exist:
 - **Preserve important information** from previous sessions
 - **Add to the history** rather than erasing it
 
-## Git Integration
+## Git Integration - MANDATORY COMMIT AND PUSH
 
-Before suggesting a commit:
-1. Check if this is a git repository: `git status`
-2. Stage all relevant changes: `git add [files]`
-3. Create the commit message
-4. **Ask for user approval** before committing
-5. Show the commit result: `git log --oneline -1`
+**This is critical: Every session must end with changes committed and pushed to GitHub.**
+
+### Process (Non-negotiable):
+
+1. **Check if git repository:** `git status`
+2. **Stage all relevant changes:** `git add [files]` or `git add -A` if all changes are ready
+3. **Create meaningful commit message** with:
+   - Clear category: [FEATURE/BUGFIX/REFACTOR/DOCS/CHORE]
+   - What was accomplished
+   - Why it matters
+   - Any relevant context for future sessions
+4. **EXECUTE the commit** (not just propose it):
+   - Use the commit message format shown in "Prepare Git Commit" section
+5. **EXECUTE the push to GitHub** (not optional):
+   - Run: `git push origin master` (or current branch)
+   - Verify with: `git status` (should show "Your branch is up to date with 'origin/master'")
+6. **Verify push was successful:**
+   - `git log --oneline -5` should show the commit
+   - No "ahead of origin/master" message
 
 ## Context File Locations
 
