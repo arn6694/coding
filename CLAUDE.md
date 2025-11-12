@@ -15,15 +15,15 @@ This is a homelab operations repository containing scripts and documentation for
 ### I want to...
 | Task | Document | Section |
 |------|----------|---------|
-| Run production scripts | [`SCRIPTS.md`](SCRIPTS.md) | Quick Start |
-| Understand code architecture | [`ARCHITECTURE.md`](ARCHITECTURE.md) | Code Architecture |
-| Add or modify scripts | [`DEVELOPMENT.md`](DEVELOPMENT.md) | Common Development Tasks |
-| Perform infrastructure operations | [`OPERATIONS.md`](OPERATIONS.md) | Task-specific procedures |
-| Debug or troubleshoot issues | [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md) | Diagnostics & Fixes |
-| Follow code/doc standards | [`STYLE.md`](STYLE.md) | Guidelines |
-| Ask about Checkmk | (auto-activates) | `Checkmk.md` agent |
-| Ask about DNS/networking | (auto-activates) | `network_engineer.md` agent |
-| Ask about Ansible | (auto-activates) | `ansible.md` agent |
+| Run production scripts | [`docs/SCRIPTS.md`](docs/SCRIPTS.md) | Quick Start |
+| Understand code architecture | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Code Architecture |
+| Add or modify scripts | [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md) | Common Development Tasks |
+| Perform infrastructure operations | [`docs/OPERATIONS.md`](docs/OPERATIONS.md) | Task-specific procedures |
+| Debug or troubleshoot issues | [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md) | Diagnostics & Fixes |
+| Follow code/doc standards | [`docs/STYLE.md`](docs/STYLE.md) | Guidelines |
+| Ask about Checkmk | (auto-activates) | `.claude/agents/Checkmk.md` |
+| Ask about DNS/networking | (auto-activates) | `.claude/agents/network_engineer.md` |
+| Ask about Ansible | (auto-activates) | `.claude/agents/ansible.md` |
 
 ## Specialized Agents (Auto-Activate)
 
@@ -63,26 +63,26 @@ No manual activation needed - just ask questions about these topics.
 
 ## Documentation Files
 
-All detailed information is organized into topic-specific files:
+All detailed information is organized into topic-specific files in the `docs/` directory:
 
-- **[SCRIPTS.md](SCRIPTS.md)** - Production script reference and quick start
-- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Code design patterns and infrastructure details
-- **[DEVELOPMENT.md](DEVELOPMENT.md)** - Adding/modifying scripts and development tasks
-- **[OPERATIONS.md](OPERATIONS.md)** - Infrastructure tasks and operational procedures
-- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Debugging scripts and diagnostics
-- **[STYLE.md](STYLE.md)** - Code standards, documentation guidelines, and security practices
+- **[docs/SCRIPTS.md](docs/SCRIPTS.md)** - Production script reference and quick start
+- **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** - Code design patterns and infrastructure details
+- **[docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)** - Adding/modifying scripts and development tasks
+- **[docs/OPERATIONS.md](docs/OPERATIONS.md)** - Infrastructure tasks and operational procedures
+- **[docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)** - Debugging scripts and diagnostics
+- **[docs/STYLE.md](docs/STYLE.md)** - Code standards, documentation guidelines, and security practices
 
 ## Quick Reference Guide
 
 Use this when you need to find information fast:
 
 1. **Quick reference?** → Start with **[CLAUDE.md](CLAUDE.md)**
-2. **Running scripts?** → See **[SCRIPTS.md](SCRIPTS.md)**
-3. **Adding/modifying code?** → See **[DEVELOPMENT.md](DEVELOPMENT.md)**
-4. **Doing infrastructure work?** → See **[OPERATIONS.md](OPERATIONS.md)**
-5. **Something broke?** → See **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)**
-6. **Need to know standards?** → See **[STYLE.md](STYLE.md)**
-7. **Understanding the design?** → See **[ARCHITECTURE.md](ARCHITECTURE.md)**
+2. **Running scripts?** → See **[docs/SCRIPTS.md](docs/SCRIPTS.md)**
+3. **Adding/modifying code?** → See **[docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)**
+4. **Doing infrastructure work?** → See **[docs/OPERATIONS.md](docs/OPERATIONS.md)**
+5. **Something broke?** → See **[docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)**
+6. **Need to know standards?** → See **[docs/STYLE.md](docs/STYLE.md)**
+7. **Understanding the design?** → See **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**
 
 ## Available Agents
 
